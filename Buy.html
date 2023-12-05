@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Management</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+        }
+
+        .property-listing {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .property-card {
+            max-width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .property-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .property-details {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Property Management</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to our Property Management Services</h2>
+        <p>Explore our listings and find the perfect property for your needs.</p>
+
+        <div class="property-listing">
+            <div class="property-card">
+                <img src="./images/a1.jpg" alt="Property 1">
+                <div class="property-details">
+                    <h3>Property 1</h3>
+                    <p>Location: City A</p>
+                    <p>Price: 1CR</p>
+                </div>
+            </div>
+
+            <div class="property-card">
+                <img src="./images/a4.jpg" alt="Property 2">
+                <div class="property-details">
+                    <h3>Property 2</h3>
+                    <p>Location: City B</p>
+                    <p>Price: 2.2CR</p>
+                </div>
+            </div>
+            <!-- Add more property cards as needed -->
+        </div>
+    </section>
+
+</body>
+</html>
